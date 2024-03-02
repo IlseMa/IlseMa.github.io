@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Create Case in Salesforce</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Create a New Case</h1>
+    <form id="salesforceCaseForm">
+        <label for="caseSubject">Subject:</label>
+        <input type="text" id="caseSubject" name="subject" required>
+        
+        <label for="caseDescription">Description:</label>
+        <textarea id="caseDescription" name="description" required></textarea>
+        
+        <button type="submit">Submit Case</button>
+    </form>
+    
 </body>
 </html>
